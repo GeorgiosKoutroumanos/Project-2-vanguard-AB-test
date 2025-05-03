@@ -42,7 +42,7 @@ The analysis involves the following steps:
     *   **Time Spent on Each Step:** Calculate the average duration users spend on each step, using both all users and grouping by 'test' and 'control'.
     *   **Error Rates:** Identify steps where users go back to a previous step, indicating confusion or an error.
 9.   Perform hypothesis testing on completion rate, average time spent, and balances.
-10. Analyze the Average time spend excluding the outliers
+10. Analyze the Average time spend excluding the outliers.
 
 ## Key Variables
 * client_id: Unique identifier for each client.
@@ -59,24 +59,25 @@ The analysis involves the following steps:
 * calls_6_mnth: Number of calls made in the last 6 months.
 * logons_6_mnth: Number of logons in the last 6 months.
 * Variation: Test or Control group assignment.
-*membership_level: Categorie to classify the clients based in their 'bal'
+* membership_level: Categorie to classify the clients based in their 'bal'.
 
 ## Key Findings:
-*   The code examines completion rates under different definitions (reaching 'confirm' vs. completing all steps in the correct order)
-*   T-tests were used to compare the average time spent and to conclude if a specific variation have a major performance than others in general terms (ignoring the outliers)
-*   The total balance for each variation was analyzed to determine if there's any difference between the amounts in average
-*   There's a section analyzing the influence of average time spen in each process by generation (Baby bommers, Millenials, etc)
+*   The code examines completion rates under different definitions (reaching 'confirm' vs. completing all steps in the correct order).
+*   T-tests were used to compare the average time spent and to conclude if a specific variation have a major performance than others in general terms (ignoring the 
+    outliers).
+*   The total balance for each variation was analyzed to determine if there's any difference between the amounts in average.
+*   There's a section analyzing the influence of average time spen in each process by generation (Baby bommers, Millenials, etc).
   
 ## Next Steps
 *   Refine error rate definition and analysis.
 *   Perform additional analysis to identify factors that influence completion rate, time spent, and error rate.
-*   Develop recommendations for improving the online process.
-*  Use of external dashboard software (Tableau, etc)
-*  
+*   Develop further recommendations for improving the online process.
+*   Extending the data collection period allows for a larger sample size, better representation, and more stable results in the A/B testing analysis.
+  
 ## Presentation
 https://docs.google.com/presentation/d/1g13gdJfLgCv-3AJnuT96HrTF1vNJwC0W8Rhmx0kDUyM/edit?slide=id.p#slide=id.p
 
 ## Tableau Dashboard
-(https://public.tableau.com/app/profile/georgios.koutroumanos1227/viz/Dashboard_Project2_17461209245410/Dashboard1)
+https://public.tableau.com/app/profile/georgios.koutroumanos1227/viz/Dashboard_Project2_17461209245410/Dashboard1
 
 
